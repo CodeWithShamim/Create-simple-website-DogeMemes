@@ -35,8 +35,22 @@ body{
     height: 80px;
     border-radius: 100px;
     margin-top: 10px;
+    animation: logo 3s linear 5;
+}
 
+@keyframes logo {
+    
+    0%{
+        transform: translate(50px, 0px);
+    }
 
+    50%{
+        transform: translate(-50px, 0px);
+    }
+    100%{
+        transform: translate(50px, 0px);
+    }
+    
 }
 
 .header ul{
@@ -87,7 +101,27 @@ body{
     margin: 0 auto;
     border-radius: 40px;
     margin-top: 80px;
+    border: 2px solid red;
+    animation: rotate 10s linear infinite;
+  
 
+}
+
+
+@keyframes rotate {
+    
+    0%{
+        transform: translate(600px, 0px);
+    }
+
+    50%{
+        transform: translate(-600px, 0px);
+    }
+
+    100%{
+        transform: translate(600px, 0px);
+    }
+    
 }
 
 .section1 .bg-img h1:hover{
