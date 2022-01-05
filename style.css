@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #24252A;
+    color: white;
+}
+
+
+.header{
+    background-color: #646774;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+  
+}
+
+.header h1{
+    background-color: #24252A;
+    color: white;
+    font-weight: bold;
+    padding: 0px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+
+.logo img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 10px;
+
+
+}
+
+.header ul{
+    display: flex;
+}
+
+
+.header ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    font-weight: 1000px;
+    color: white;
+    transition: 1s;
+
+}
+.header ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color:#f8f8f8 ;
+    border: 2px solid black;
+    padding: 2px 20px;
+    border-radius: 10px;
+
+
+}
+
+
+/*Start section 1 */
+
+.section1 .bg-img{
+    background: url("images/bg2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    padding: 10px;
+}
+
+.section1 .bg-img h1{
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    width: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 80px;
+
+}
+
+.section1 .bg-img h1:hover{
+    background-color: #CCB273;
+    color: black;
+}
+
+
+
+/*Start section 2 */
+
+.section2{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.left-side{
+    width: 40%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.right-side{
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
